@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    width: 200px;
+    height: 250px;
+    border: solid 2px black;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 100px;
+}
+
+.box {
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+}

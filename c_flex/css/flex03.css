@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    border: solid 2px black;
+    height: 100dvh;
+}
+
+/*
+    flex-shrink: 최소 영역을 보장 (1: default)
+    flex-grow: 부모가 가진 영역(빗금 보라색)의 남은 크기를 얼마나 사용할 지 결정하는 속성
+*/
+
+.box {
+    width: 100%;
+    background-color: orange;
+}
+
+.box01, .box03 {
+    flex-shrink: 0;
+    height: 60px;
+}
+
+.box02 {
+    background-color: green;
+    flex-shrink: 1;
+    height: 100%;
+}

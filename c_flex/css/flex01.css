@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    gap: 4px;
+    width: 500px;
+    height: 500px;
+    border: solid 3px black;
+    /* row: 행 방향(default) */
+    /* flex-direction: row; */
+    /* flex-direction: column; */
+}
+
+div.box {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+}
