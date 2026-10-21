@@ -1,0 +1,31 @@
+.container {
+    position: relative;
+    /* 
+        inline: 크기를 바꿀 수 없다. 자식이 가지고 있는 크기만큼 크기가 할당
+    */
+    display: inline-flex;
+}
+
+.arrow {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    padding: 20px;
+    /* 원형 */
+    border-radius: 50%;
+    /* 
+        text-shadow
+        그림자: x축, y축, blur(퍼짐)
+    */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    background-color: white;
+
+    top: 50%;
+    right: 50px;
+
+    /* 
+        translate: 자기 자신을 움직이는 속성
+        translate(좌우, 상하)
+    */
+    transform: translate(0, -50%);
+}

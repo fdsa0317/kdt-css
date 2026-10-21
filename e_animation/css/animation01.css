@@ -1,0 +1,32 @@
+@keyframes identifier {
+    0% {}
+    50% {}
+    100% {}
+}
+
+@keyframes identifier {
+    from {}
+    to {}
+}
+
+.img {
+    /* fill-mode: forwards - 마지막 위치를 고정 */
+    /* animation: twinkle 1s ease-in infinite; */
+    animation: twinkle 1s ease-in 5 forwards;
+}
+
+/* 1초마다 깜빡이는 에렌 */
+@keyframes twinkle {
+    0% {
+        /* 투명도: 100% */
+        opacity: 1;
+    }
+    50% {
+        /* 투명도: 0% */
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+        transform: translate(200px, 0);
+    }
+}

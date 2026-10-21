@@ -1,0 +1,39 @@
+.header-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid 1px #d9d9d9;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.header-wrapper .header {
+    width: 1280px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-wrapper .header .logo {
+    width: 80px;
+}
+
+
+.header .right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header .right .icon-wrap {
+    width: 28px;
+}
+
+.header .right .icon-wrap > img{
+    width: 100%;
+}
+
+.content {
+    height: 2000px;
+}

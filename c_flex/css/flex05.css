@@ -255,6 +255,84 @@ img.box {
     height: 50px;
 }
 
+.container09 {
+    display: flex;
+    width: 450px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 15px;
+    justify-content: center;
+}
+
+.container10 {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    gap: 10px;
+    align-items: center;
+}
+
+.image001, .image002, .image003, .image004, .image005 {
+    display: flex;
+    gap: 10px;
+    width: 500px;
+}
+
+.image001 .title001, .image002 .title002, .image003 .title003, .image004 .title004, .image005 .title005 {
+    font-size: 12.5px;
+    overflow-wrap: normal;
+}
+
+.image001 img, .image002 img, .image003 img, .image004 img, .image005 img {
+    width: 120px;
+    height: 120px;
+}
+
+.image001 .money01, .image002 .money01, .image003 .money01, .image004 .money01, .image005 .money01 {
+    font-size: 10px;
+    text-decoration: line-through;
+}
+
+.image001 .dis01, .image002 .dis01, .image003 .dis01, .image004 .dis01, .image005 .dis01 {
+    color: red;
+    font-size: 12.5px;
+    font-weight: bold;
+}
+
+.image003 .dis11 {
+    color: blue;
+    font-size: 12.5px;
+    font-weight: bold;
+}
+
+.image001 .dism01, .image002 .dism01, .image004 .dism01, .image005 .dism01 {
+    color: black;
+    font-size: 12.5px;
+    font-weight: bold;
+}
+
+.image003 .maxdis1 {
+    color: red;
+    font-weight: bold;
+    font-size: 12.5px;
+    word-break: keep-all;
+}
+
+img.box01 {
+    width: 58px;
+    height: 15px;
+}
+
+.bs {
+    color: black;
+    font-size: 11px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
 .wrapicon {
     width: 800px;
 }
